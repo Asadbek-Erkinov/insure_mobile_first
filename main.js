@@ -2,9 +2,9 @@ var elSiteHeader = document.querySelector(".site-header-js");
 var elShowMenuBtn = elSiteHeader.querySelector(".js-show-menu-btn");
 
 elShowMenuBtn.addEventListener("click", function() {
-
-elSiteHeader.classList.toggle("show-menu");
-
-document.body.style.overflowY = "hidden";
-
+  
+  document.body.classList.toggle("no-scroll");
+  elSiteHeader.classList.toggle("show-menu");
+  
+  
 });
