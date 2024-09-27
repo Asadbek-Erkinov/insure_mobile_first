@@ -5,5 +5,6 @@ elShowMenuBtn.addEventListener("click", function() {
 
 elSiteHeader.classList.toggle("show-menu");
 
+document.body.style.overflowY = "hidden";
 
 });
