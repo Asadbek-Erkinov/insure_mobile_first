@@ -3,7 +3,7 @@ var elShowMenuBtn = elSiteHeader.querySelector(".js-show-menu-btn");
 
 elShowMenuBtn.addEventListener("click", function() {
   
-  document.body.classList.toggle("no-scroll");
+  // document.body.classList.toggle("no-scroll");
   elSiteHeader.classList.toggle("show-menu");
   
   
